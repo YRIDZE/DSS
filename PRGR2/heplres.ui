@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>heplRES</class>
+ <widget class="QDialog" name="heplRES">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Объяснение решения</string>
+  </property>
+  <widget class="QTextEdit" name="result_help">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>26</y>
+     <width>371</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

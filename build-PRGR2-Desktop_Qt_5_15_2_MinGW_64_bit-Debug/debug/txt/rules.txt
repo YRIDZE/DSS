@@ -1,0 +1,13 @@
+p1 & stk = h1
+p2 & stg = h2
+p1 & smo = h3
+p2 & smo = h4
+ofs & zs = h5
+mp & zs | vso = p1
+mp & !zs = p2
+mp & ytk = stk
+mp & !lk & vka = stg
+mp & vka & ymo = smo
+!ofs | !zs | vso = mp
+lk = ymo
+mav & fv = ytk

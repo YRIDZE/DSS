@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>base</class>
+ <widget class="QDialog" name="base">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>База знаний</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTextEdit" name="hyposEdit"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QTextEdit" name="questEdit"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="hypos">
+     <property name="text">
+      <string>Гипотезы</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="quest">
+     <property name="text">
+      <string>Вопросы</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="rules">
+     <property name="text">
+      <string>Правила</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QTextEdit" name="rulesEdit"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QTextEdit" name="varEdit"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="var">
+     <property name="text">
+      <string>Переменные</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="save">
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cansel">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
